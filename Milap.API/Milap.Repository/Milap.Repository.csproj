@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Hosting.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Twilio" Version="5.55.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Milap.API\Milap.API.csproj" />
+    <ProjectReference Include="..\Milap.Model\Milap.Model.csproj" />
+    <ProjectReference Include="..\Milap.Utility\Milap.Utility.csproj" />
+  </ItemGroup>
+
+</Project>
